@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./css/home.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/animate.css">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="nav-right">
+          <a href=""><i class="far fa-user"></i></a>
+          <a href=""><i class="fas fa-shopping-cart"></i></a>
+          <a href=""><i class="fas fa-home"></i></a>
+          <a href=""><i class="fas fa-search"></i></a>
+        </div>
+        <div class="nav-left">
+          <div class="register-login-btn">
+            <i class="fas fa-user"></i>
+            <a href="#">ثبت نام / ورود</a>
+          </div>
+        </div>
+      </nav>
+      <section class="slider">
+        <div class="slides">
+          <div class="item  active" id="slide1">
+            <img src="./images/s1.jpg" alt="" />
+            <span>آهنگ ها رو زنده تر از اون چیزی که هستن گوش بده</span>
+          </div>
+          <div class="item " id="slide2">
+            <img src="./images/s2.jpg" alt="" />
+            <span style="color: white;"
+              >کیفیت صدایی که همیشه<br />
+              دنبالش بودی اینجاست</span
+            >
+          </div>
+          <div class="item " id="slide3">
+            <img src="./images/s3.jpg" alt="" />
+            <span>رویا هاتو با صدای بلند گوش بده</span>
+          </div>
+        </div>
+        <div class="buttons">
+          <i onclick="setSlide('slide1' , 1)" class="fas fa-circle"></i>
+          <i onclick="setSlide('slide2' , 2)" class="fas fa-circle"></i>
+          <i onclick="setSlide('slide3' , 3)" class="fas fa-circle"></i>
+        </div>
+      </section>
+    </header>
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>
